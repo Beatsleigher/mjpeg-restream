@@ -13,9 +13,9 @@ Requirements: php5+ compiled with --enable-shmop
 */
 
 // These settings would read an mjpeg stream from http://192.168.1.1:80/videostream.cgi?user=admin&password=pass
-$host = "192.168.1.1";
-$port = "80";
-$url = "/videostream.cgi?user=admin&password=pass";
+$host = "192.168.43.1:8080";
+$port = "8080";
+$url = "/video";
 
 // Image settings:
 $overlay = "bannerad.png";	//image that will be superimposed onto the stream
